@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
 </head>
 <body>
-    <header class="flex justify-between items-center w-full h-12 shadow-md bg-white">
-        <h5 class="text-crimson-100 text-3xl font-bold ml-5 w-1/4 h-10">Car Rental</h5>
+    <header class="fixed flex justify-between items-center w-full h-12 shadow-md bg-white z-10">
+        <h5 class="text-crimson-100 text-4xl font-bold mb-1 ml-5">Car Rental</h5>
         <nav class="flex items-center w-1/3 h-full">
             <ul class="flex flex-row justify-around w-full text-lg font-Rubik">
                 <li class="relative group"><a href="#">Home</a><span class="bottom-0 w-full h-1 bg-crimson-200 block absolute"></span></li>
@@ -31,7 +31,8 @@
             <i class="fa-solid fa-bars" style="color: crimson; font-size: 32px; margin-top: 1px;"></i>
         </button>
     </header>
-    <div class="text-8xl font-semibold w-full h-96 flex justify-center items-center flex-col">
+    <div class="relative text-8xl font-semibold w-full h-[500px] flex justify-center items-center flex-col bg-stone-50">
+        <img src="../images/fire.png" alt="">
         <div class="relative mb-4 w-full h-24 overflow-scroll overflow-x-hidden overflow-y-hidden">
             <span class="absolute top-0 block text-center text-crimson-100 w-full h-auto animate-toBottom">
                 <h1>Rent</h1>
@@ -40,7 +41,7 @@
                 <h1>Rent</h1>
             </span>
         </div>
-        <h1>Cars of All Types</h1>
+        <h1>All Type of Cars</h1>
     </div>
 </body>
 </html>

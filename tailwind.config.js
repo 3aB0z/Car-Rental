@@ -30,7 +30,7 @@ module.exports = {
         }
       },
       animation: {
-        'toBottom': 'toBottom ease 10s infinite 1s'
+        'toBottom': 'toBottom ease 8s infinite 1s'
       }
     },
   },
