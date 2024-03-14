@@ -27,10 +27,15 @@ module.exports = {
           '50%, 66.66%': {transform: 'translateY(-192px)'},
           '66.66%, 83.33%': {transform: 'translateY(-192px)'},
           '83.33%, 100%': {transform: 'translateY(-288px)'}
+        },
+        toLeft: {
+          '0%': {transform: 'translateX(0px)'},
+          '100%': {transform: 'translateX(-2400px)'}
         }
       },
       animation: {
-        'toBottom': 'toBottom ease 8s infinite 1s'
+        'toBottom': 'toBottom ease 8s infinite 1s',
+        'toLeft': 'toLeft linear 40s infinite running'
       }
     },
   },
